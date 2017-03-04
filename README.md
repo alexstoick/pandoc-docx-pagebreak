@@ -1,4 +1,4 @@
-# pandoc-docx-pagebreak-filter
+# pandoc-docx-pagebreak
 
 A Pandoc filter that replaces `PAGEBREAK` and `PAGEBREAKLANDSCAPE` with their
 right Word section breaks. This enables documents to have a mixed layout
@@ -33,7 +33,7 @@ Just text ... (portrait again)
 ### Using cabal and Hackage
 
 ```
-git clone git@github.com:alexstoick/pandoc-docx-pagebreak-filter.git
-cd pandoc-docx-pagebreak-filter
-stack install pandoc-docx-pagebreak-filter
+git clone git@github.com:alexstoick/pandoc-docx-pagebreak.git
+cd pandoc-docx-pagebreak
+stack install pandoc-docx-pagebreak
 ```
